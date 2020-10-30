@@ -1,0 +1,61 @@
+---
+title: "My First RMD"
+author: "Jan Gil Sarmiento"
+date: "10/30/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Section 1
+
+## Subsection1 of section 1
+
+### Subsection of subection1 of section 1
+
+asdadsasdadsasdasd
+
+## Subsection2 of section
+
+### Subsection of subsection2 of section 1
+
+asdadsasdasdasd
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+*italicise* 
+
+***italicised and bolfaced***
+
+List:
+
+- Item 1  
+- Item 2  
+- Item 3  
+- Item 4  
+
+$f(x)=\frac{1}{\sqrt{2 \pi \sigma^{2}}}e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^{2}}$
+
+\textcolor{red}{this text is coloured red}
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
