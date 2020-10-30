@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Section 1
 
-Hello world!
+Hello world.
 
 ## Subsection1 of section 1
 
