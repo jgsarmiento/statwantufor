@@ -64,4 +64,5 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 hello
 hello 1
-hello 2
+
+hello 4
