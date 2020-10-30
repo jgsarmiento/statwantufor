@@ -11,8 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Section 1
 
-edit - ldasdad
-edit2-check
 ## Subsection1 of section 1
 
 ### Subsection of subection1 of section 1
@@ -61,3 +59,8 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+edit-knit-commit-push-pull req
